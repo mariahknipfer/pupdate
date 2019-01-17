@@ -1,0 +1,43 @@
+{
+  "name": "pupdate",
+  "version": "0.1.0",
+  "description": "Instagram but for dogs",
+  "author": "Mariah Knipfer <mariahknipfer@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariahknipfer/pupdate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariahknipfer/pupdate/issues"
+  },
+  "keywords": [
+    "vue",
+    "dogs",
+    "pupdate",
+    "social"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write \"**/*.{tsx,ts,css,md,js,vue,html}\""
+  },
+  "dependencies": {
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-plugin-pwa": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
