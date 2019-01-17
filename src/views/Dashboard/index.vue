@@ -1,5 +1,3 @@
 <template>
-  <div>
-    Welcome To Pupdate
-  </div>
+  <div>Welcome To Pupdate</div>
 </template>
