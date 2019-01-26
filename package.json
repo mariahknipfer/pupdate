@@ -12,33 +12,35 @@
     "url": "https://github.com/mariahknipfer/pupdate/issues"
   },
   "keywords": [
-    "vue",
+    "react",
     "dogs",
     "pupdate",
     "social"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "format": "prettier --write \"**/*.{tsx,ts,css,md,js,vue,html}\""
   },
   "dependencies": {
-    "register-service-worker": "^1.5.2",
-    "vue": "^2.5.22",
-    "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "styled-components": "^4.1.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-plugin-pwa": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.12.0",
-    "eslint-plugin-vue": "^5.1.0",
-    "prettier": "^1.15.3",
-    "vue-template-compiler": "^2.5.22"
-  }
+    "prettier": "^1.16.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

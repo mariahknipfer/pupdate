@@ -1,20 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import routes from './routes'
+import React from 'react'
+import { Switch } from 'react-router-dom'
 
-Vue.use(Router)
+import Feed from '../views/Feed'
 
-const router = new Router({
-  mode: 'history',
-  base: __dirname,
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    }
+import DefaultLayoutRoute from './components/DefaultLayoutRoute'
 
-    return { x: 0, y: 0 }
-  },
-  routes
-})
+function Router() {
+  return (
+    <Switch>
+      <DefaultLayoutRoute exact path="/" component={Feed} />
+    </Switch>
+  )
+}
 
-export default router
+export default Router
